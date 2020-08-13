@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Presentation.Controllers.AdministradorController.Post(WebAPI.Application.DTO.DTO.UserDTO)">
+            <summary>
+            Método para adicionar Administradores
+            </summary>
+            <param name="admin">
+            Parâmetro que deve ser passado para o método.
+            </param>
+            <returns>Retorna admin e token criados. </returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.AdministradorController.Put(System.Int32,WebAPI.Application.DTO.DTO.UserDTO)">
+            <summary>
+            Método para editar Administradores
+            </summary>
+            <param name="admin">
+            Parâmetro que deve ser passado para o método.
+            </param>
+            <param name="id">
+            Parâmetro que deve ser passado para o método pegar o Id do Administrador.
+            </param>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.AdministradorController.Delete(System.Int32)">
+            <summary>
+            Método para Remover Administradores
+            </summary>
+            <param name="id">
+            Parâmetro que deve ser passado para o método pegar o Id do Administrador.
+            </param>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.AdministradorController.ListarUsuarios(WebAPI.Util.PaginationParams)">
+            <summary>
+            Método para obter a lista de usuários ativos não administradores
+            </summary>
+            <returns>
+            Retorna a lista (total ou paginada) de usuários ativos não administradores
+            </returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.FilmeController.Get(System.Int32)">
+            <summary>
+            Método para obter detalhes de um filme
+            </summary>
+            <param name="id"> Id do Filme a ser buscado </param>
+            <returns>
+            Retorna um item com os detalhes do filme
+            </returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.FilmeController.Post(WebAPI.Application.DTO.DTO.MovieDTO)">
+            <summary>
+            Método para adicionar filmes
+            </summary>
+            <param name="filme">Parâmetro com detalhes do filme</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.FilmeController.Votar(WebAPI.Application.DTO.DTO.VoteDTO)">
+            <summary>
+            Método para cadastro de votos.
+            </summary>
+            <param name="vote">Parâmetro com itens para cadastro do voto.</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.FilmeController.ListarFilmes(WebAPI.Util.PaginationParams,WebAPI.Util.FilterMovie)">
+            <summary>
+            Método para Listar Filmes
+            </summary>
+            <param name="pageParameters">Parâmetros de Paginação</param>
+            <param name="filterParams">Parâmetros de filtro dos filmes.</param>
+            <returns>Retorna uma lista de filmes de acordo com os filtros.</returns>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.UsuarioController.Post(WebAPI.Application.DTO.DTO.UserDTO)">
+            <summary>
+            Método para adicionar Usuários
+            </summary>
+            <param name="user">
+            Parâmetro que deve ser passado para o método.
+            </param>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.UsuarioController.Put(System.Int32,WebAPI.Application.DTO.DTO.UserDTO)">
+            <summary>
+            Método para editar Usuários
+            </summary>
+            <param name="user">
+            Parâmetro que deve ser passado para o método.
+            </param>
+            <param name="id">
+            Parâmetro que deve ser passado para o método pegar o Id do Usuário.
+            </param>
+        </member>
+        <member name="M:WebAPI.Presentation.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Método para Remover Usuários
+            </summary>
+            <param name="id">
+            Parâmetro que deve ser passado para o método pegar o Id do Usuário.
+            </param>
+        </member>
+    </members>
+</doc>
